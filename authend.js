@@ -2,6 +2,7 @@
 
 	yam.connect.loginButton('#yammer-login', function(resp) {
 		if (resp.authResponse) {
+			$(".guide").text("Authentication succeeded. Please close this window.").show();
 			window.close();
 		}
 	});
