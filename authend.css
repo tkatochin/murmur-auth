@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    margin: 4;
+    padding: 0;
+}
