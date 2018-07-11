@@ -11,6 +11,7 @@
 		if (imgButton.length > 0 && imgButton[0].complete) {
 			clearInterval(iid);
 			imgButton.trigger("click");
+			$(".guide").show();
 		}
 	}, 100);
 
